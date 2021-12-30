@@ -20,7 +20,7 @@
 			align-items: center;
 			justify-content: space-between;
 		}
-		header ul li{
+	/*	header ul li{
 			list-style: none;
 			padding: 20px;
 			margin: 10px;
@@ -30,7 +30,7 @@
 			/*background: red;*/
 
 		}
-		header ul li a{
+	/*	header ul li a{
 			color: inherit;
 			text-decoration: none;
 		}
@@ -40,7 +40,8 @@
 		header ul li.active a{
 			color: white;
 			font-weight: bold;
-		}
+		}*/*/
+
 		.filter-condition{
 			padding: 20px;
 			height: 100px;
@@ -57,7 +58,7 @@
 		    background: transparent;
 		    cursor: pointer;
 		}
-		.product-field{
+		/*.product-field{
 			padding: 40px 20px;
 		}
 		.product-field ul{
@@ -71,12 +72,12 @@
 			height: 400px;
 			transition: 0.5s all;
 			background: whitesmoke;
-			/*overflow: hidden;*/
+			/*overflow: hidden;
 			border-radius: 20px;
 			padding: 10px;
 			margin: 200px 10px 0 10px;
 			position: relative;
-		}
+		}*/*/
 		picture{
 			background: #eee;
 			padding: 5px;
@@ -148,11 +149,56 @@
 			    color: white;
 			    border-color: cyan;
 		}
-		li h4{
+		/*li h4{
 		    position: absolute;
 		    right: 10px;
 		    top: 50%;
 		    font-size: 30px;
 		    color: #555;
 		    text-shadow: 1px 1px 2px black;
-		}
+		}*/
+body{
+	margin:0;
+	padding:0;
+}
+nav{
+	padding: 10px;
+}
+.home {
+	text-align: center;
+	padding: 80px;
+	}
+
+	
+.offer {
+	text-align: center;
+	margin-bottom:50px;
+}
+footer{
+	text-align: center;
+	padding: 20px;
+	background: black;
+	color: white;
+}
+.home h3{
+	color:var(--black);
+	font-size: 4vw;
+	text-transform: uppercase;
+}
+
+.home img{
+	width:100%;
+	margin:1rem 0;
+}
+
+.car{
+	height:100px;
+}
+.area{
+	font-size: 12px;
+	font-weight: 100;
+	margin: 0;
+}
+h6{
+	margin-bottom: 0;
+}
