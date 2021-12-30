@@ -31,14 +31,15 @@ footer{
 	width:100%;
 	margin:1rem 0;
 }
-.sort{
-	height: 500px;
-	margin: 30px;
-}
+
 .car{
-	height:80px;
+	height:100px;
 }
 .area{
 	font-size: 12px;
 	font-weight: 100;
+	margin: 0;
+}
+h6{
+	margin-bottom: 0;
 }
